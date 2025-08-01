@@ -16,10 +16,7 @@ const Index = () => {
           <Link to="/" className="text-tech-blue hover:text-manga-pink transition-colors">Главная</Link>
           <Link to="/catalog" className="text-tech-blue hover:text-manga-pink transition-colors">Каталог</Link>
         </nav>
-        <Button className="bg-manga-pink hover:bg-manga-pink/90">
-          <Icon name="User" size={18} className="mr-2" />
-          Войти
-        </Button>
+
       </header>
 
       {/* Hero Section */}
