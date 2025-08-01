@@ -15,7 +15,6 @@ const Index = () => {
         <nav className="hidden md:flex space-x-6">
           <Link to="/" className="text-tech-blue hover:text-manga-pink transition-colors">Главная</Link>
           <Link to="/catalog" className="text-tech-blue hover:text-manga-pink transition-colors">Каталог</Link>
-          <Link to="/about" className="text-tech-blue hover:text-manga-pink transition-colors">О нас</Link>
         </nav>
         <Button className="bg-manga-pink hover:bg-manga-pink/90">
           <Icon name="User" size={18} className="mr-2" />
@@ -53,53 +52,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="container mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-center text-tech-blue mb-12">Почему выбирают нас?</h3>
-        <div className="grid md:grid-cols-3 gap-8">
-          <Card className="border-2 border-manga-pink/20 hover:border-manga-pink transition-colors">
-            <CardHeader className="text-center">
-              <div className="mx-auto mb-4 w-16 h-16 bg-manga-pink/10 rounded-full flex items-center justify-center">
-                <Icon name="Zap" className="text-manga-pink" size={32} />
-              </div>
-              <CardTitle className="text-tech-blue">Быстрый старт</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <CardDescription className="text-center text-gray-600">
-                Получите готового бота за считанные минуты. Простая установка и настройка.
-              </CardDescription>
-            </CardContent>
-          </Card>
 
-          <Card className="border-2 border-manga-yellow/20 hover:border-manga-yellow transition-colors">
-            <CardHeader className="text-center">
-              <div className="mx-auto mb-4 w-16 h-16 bg-manga-yellow/10 rounded-full flex items-center justify-center">
-                <Icon name="Settings" className="text-manga-yellow" size={32} />
-              </div>
-              <CardTitle className="text-tech-blue">Полная настройка</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <CardDescription className="text-center text-gray-600">
-                Адаптируйте бота под свои нужды. Гибкие настройки и персонализация.
-              </CardDescription>
-            </CardContent>
-          </Card>
-
-          <Card className="border-2 border-tech-blue/20 hover:border-tech-blue transition-colors">
-            <CardHeader className="text-center">
-              <div className="mx-auto mb-4 w-16 h-16 bg-tech-blue/10 rounded-full flex items-center justify-center">
-                <Icon name="Shield" className="text-tech-blue" size={32} />
-              </div>
-              <CardTitle className="text-tech-blue">Надёжность</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <CardDescription className="text-center text-gray-600">
-                24/7 поддержка и гарантия работы. Ваш бот всегда онлайн.
-              </CardDescription>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
 
 
 
@@ -125,7 +78,6 @@ const Index = () => {
             <div>
               <h5 className="font-semibold mb-4">Компания</h5>
               <ul className="space-y-2 text-gray-300">
-                <li><Link to="/about" className="hover:text-manga-pink transition-colors">О нас</Link></li>
                 <li><a href="#" className="hover:text-manga-pink transition-colors">Контакты</a></li>
                 <li><a href="#" className="hover:text-manga-pink transition-colors">Блог</a></li>
               </ul>
