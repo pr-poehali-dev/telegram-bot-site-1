@@ -10,7 +10,7 @@ const Index = () => {
       <header className="w-full px-6 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Icon name="Zap" className="text-manga-pink" size={32} />
-          <h1 className="text-2xl font-bold text-tech-blue">TeleBot Store</h1>
+          <h1 className="text-2xl font-bold text-tech-blue">ТГ Ботики</h1>
         </div>
         <nav className="hidden md:flex space-x-6">
           <Link to="/" className="text-tech-blue hover:text-manga-pink transition-colors">Главная</Link>
@@ -59,11 +59,11 @@ const Index = () => {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Icon name="Zap" className="text-manga-pink" size={24} />
-              <h4 className="text-xl font-bold">TeleBot Store</h4>
+              <h4 className="text-xl font-bold">ТГ Ботики</h4>
             </div>
             <p className="text-gray-300 mb-8">Ваш надёжный поставщик телеграм ботов в стиле манги!</p>
             <div className="border-t border-gray-600 pt-8">
-              <p className="text-gray-300">&copy; 2024 TeleBot Store. Все права защищены. Сделано с ❤️ в стиле манги</p>
+              <p className="text-gray-300">&copy; 2024 ТГ Ботики. Все права защищены. Сделано с ❤️ в стиле манги</p>
             </div>
           </div>
         </div>
