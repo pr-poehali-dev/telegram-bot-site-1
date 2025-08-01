@@ -101,41 +101,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Popular Bots Preview */}
-      <section className="bg-gray-50 py-16">
-        <div className="container mx-auto px-6">
-          <h3 className="text-3xl font-bold text-center text-tech-blue mb-12">Популярные боты</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { name: "Магазин-бот", price: "5,990₽", icon: "Store" },
-              { name: "CRM-помощник", price: "12,990₽", icon: "Users" },
-              { name: "Уведомления", price: "2,990₽", icon: "Bell" },
-              { name: "Анкеты", price: "7,990₽", icon: "FileText" }
-            ].map((bot, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow cursor-pointer">
-                <CardHeader className="text-center">
-                  <div className="mx-auto mb-2 w-12 h-12 bg-manga-pink/10 rounded-full flex items-center justify-center">
-                    <Icon name={bot.icon as any} className="text-manga-pink" size={24} />
-                  </div>
-                  <CardTitle className="text-lg text-tech-blue">{bot.name}</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-2xl font-bold text-manga-pink mb-4">{bot.price}</p>
-                  <Button size="sm" className="w-full bg-manga-pink hover:bg-manga-pink/90">
-                    Купить
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <Button variant="outline" size="lg" className="border-manga-pink text-manga-pink hover:bg-manga-pink hover:text-white">
-              Смотреть все боты
-              <Icon name="ArrowRight" size={18} className="ml-2" />
-            </Button>
-          </div>
-        </div>
-      </section>
+
 
       {/* Footer */}
       <footer className="bg-tech-blue text-white py-12">
