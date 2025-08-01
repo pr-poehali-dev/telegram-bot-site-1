@@ -44,10 +44,6 @@ const Index = () => {
               <Icon name="ShoppingCart" size={20} className="mr-2" />
               Посмотреть боты
             </Button>
-            <Button variant="outline" size="lg" className="border-tech-blue text-tech-blue hover:bg-tech-blue hover:text-white px-8 py-4 text-lg">
-              <Icon name="PlayCircle" size={20} className="mr-2" />
-              Как это работает
-            </Button>
           </div>
         </div>
       </section>
@@ -59,40 +55,15 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-tech-blue text-white py-12">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <Icon name="Zap" className="text-manga-pink" size={24} />
-                <h4 className="text-xl font-bold">TeleBot Store</h4>
-              </div>
-              <p className="text-gray-300">Ваш надёжный поставщик телеграм ботов в стиле манги!</p>
+          <div className="text-center">
+            <div className="flex items-center justify-center space-x-2 mb-4">
+              <Icon name="Zap" className="text-manga-pink" size={24} />
+              <h4 className="text-xl font-bold">TeleBot Store</h4>
             </div>
-            <div>
-              <h5 className="font-semibold mb-4">Продукты</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><Link to="/catalog" className="hover:text-manga-pink transition-colors">Каталог ботов</Link></li>
-                <li><a href="#" className="hover:text-manga-pink transition-colors">Индивидуальная разработка</a></li>
-                <li><a href="#" className="hover:text-manga-pink transition-colors">Техподдержка</a></li>
-              </ul>
+            <p className="text-gray-300 mb-8">Ваш надёжный поставщик телеграм ботов в стиле манги!</p>
+            <div className="border-t border-gray-600 pt-8">
+              <p className="text-gray-300">&copy; 2024 TeleBot Store. Все права защищены. Сделано с ❤️ в стиле манги</p>
             </div>
-            <div>
-              <h5 className="font-semibold mb-4">Компания</h5>
-              <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-manga-pink transition-colors">Контакты</a></li>
-                <li><a href="#" className="hover:text-manga-pink transition-colors">Блог</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4">Связь</h5>
-              <div className="flex space-x-4">
-                <Icon name="Send" className="text-manga-pink hover:text-manga-yellow cursor-pointer" size={24} />
-                <Icon name="Mail" className="text-manga-pink hover:text-manga-yellow cursor-pointer" size={24} />
-                <Icon name="Phone" className="text-manga-pink hover:text-manga-yellow cursor-pointer" size={24} />
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 TeleBot Store. Все права защищены. Сделано с ❤️ в стиле манги</p>
           </div>
         </div>
       </footer>
