@@ -53,6 +53,20 @@ const Index = () => {
 
 
 
+      {/* Каталог ботов */}
+      <section className="py-16">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-12 text-tech-blue">Каталог ботов</h2>
+          <div className="text-center py-16">
+            <Icon name="Search" size={64} className="mx-auto mb-6 text-gray-400" />
+            <h3 className="text-xl font-semibold mb-4 text-gray-300">Каталог пуст</h3>
+            <p className="text-gray-400 max-w-md mx-auto">
+              В данный момент каталог ботов пуст. Скоро здесь появятся потрясающие телеграм боты!
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-tech-blue text-white py-12">
         <div className="container mx-auto px-6">
